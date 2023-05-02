@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Ping, but with a graph.
+EAPI=8
+HOMEPAGE=https://github.com/orf/gping
+KEYWORDS=~amd64
+LICENSE=MIT
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/orf/gping/releases/download/gping-v1.8.0/gping-Linux-x86_64.tar.gz -> gping-1.8.0.tar.gz https://github.com/orf/gping/releases/download/gping-v1.8.0/gping.1
+_md5_=e059c951ef7429ac0894627fdcf83e1b

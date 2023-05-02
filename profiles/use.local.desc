@@ -1,0 +1,90 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-admin/ananicy-cpp:bpf - Enable bpf implementation
+gui-apps/hyprland-contrib:grimblast - Install 'grimblast': a Hyprland version of the sway script for taking screenshots
+gui-apps/hyprland-contrib:hyprprop - Install 'hyprprop': a xprop replacement for hyprland
+gui-apps/hyprland-contrib:scratchpad - Install 'scratchpad': a Bash script that sends focused window to a special workspace
+gui-apps/hyprland-contrib:shellevents - Install 'shellevents': Invoke shell functions in response to Hyprland socket2 events.
+gui-wm/hyprland:contrib - Install community scripts and utilities for Hypr projects
+gui-wm/hyprland:legacy-renderer - Enable legacy renderer
+gui-wm/swayfx:X - Enable support for X11 applications (XWayland)
+gui-wm/swayfx:grimshot - Install 'grimshot': script for taking screenshots
+gui-wm/swayfx:swaybar - Install 'swaybar': sway's status bar component
+gui-wm/swayfx:swaybg - Install 'swaybg': allows to set a desktop background image
+gui-wm/swayfx:swayidle - Install 'swayidle': idle manager to run commands when user is inactive
+gui-wm/swayfx:swaylock - Install 'swaylock': sway's screen locker
+gui-wm/swayfx:swaymsg - Install 'swaymsg': tool for communicating with a running sway instance
+gui-wm/swayfx:swaynag - Install 'swaynag': shows a message with buttons
+gui-wm/swayfx:tray - Enable support for StatusNotifierItem tray specification
+gui-wm/swayfx:wallpapers - Install sway's default wallpaper image
+net-dns/doggo:fish-completion - Enable fish-completion support
+net-dns/doggo:zsh-completion - Enable zsh-completion support
+net-dns/doggo-bin:fish-completion - Enable fish-completion support
+net-dns/doggo-bin:zsh-completion - Enable zsh-completion support
+net-fs/samba:addc - Enable Active Directory Domain Controller support
+net-fs/samba:addns - Enable AD DNS integration
+net-fs/samba:ads - Enable Active Directory support
+net-fs/samba:ceph - Enable support for Ceph distributed filesystem via sys-cluster/ceph
+net-fs/samba:client - Enables the client part
+net-fs/samba:cluster - Enable support for clustering
+net-fs/samba:glusterfs - Enable support for Glusterfs filesystem via sys-cluster/glusterfs
+net-fs/samba:gpg - Use app-crypt/gpgme for AD DC
+net-fs/samba:iprint - Enabling iPrint technology by Novell
+net-fs/samba:json - Enable json audit support through dev-libs/jansson
+net-fs/samba:ntvfs - Enable support for NTVFS fileserver
+net-fs/samba:profiling-data - Enables support for collecting profiling data
+net-fs/samba:quota - Enables support for user quotas
+net-fs/samba:regedit - Enable support for regedit command-line tool
+net-fs/samba:snapper - Enable vfs_snapper module (requires sys-apps/dbus)
+net-fs/samba:spotlight - Enable support for spotlight backend
+net-fs/samba:system-heimdal - Use app-crypt/heimdal instead of bundled heimdal.
+net-fs/samba:system-mitkrb5 - Use app-crypt/mit-krb5 instead of app-crypt/heimdal.
+net-fs/samba:winbind - Enables support for the winbind auth daemon
+sys-fs/zrepl:bash-completion - Enable bash-completion support
+sys-fs/zrepl:zsh-completion - Enable zsh-completion support
+sys-kernel/cachyos-sources:NUMAdisable - Disable NUMA. NUMA is optimized for multi-socket motherboards
+sys-kernel/cachyos-sources:auto_optimization - Use auto CPU optimizations
+sys-kernel/cachyos-sources:bcachefs - Enable bcachefs
+sys-kernel/cachyos-sources:cc_harder - Enable KBUILD_CFLAGS -O3
+sys-kernel/cachyos-sources:config - Install CachyOS config
+sys-kernel/cachyos-sources:cpusched_bmq - Enable 'BitMap Queue CPU scheduler'
+sys-kernel/cachyos-sources:cpusched_bore - Enable 'Burst-Oriented Response Enhancer'
+sys-kernel/cachyos-sources:cpusched_cfs - Enable 'Completely Fair Scheduler'
+sys-kernel/cachyos-sources:cpusched_eevdf - Enable EEVDF Scheduler with some CachyOS Optimizations. EEVDF brings latency-nice as default
+sys-kernel/cachyos-sources:cpusched_pds - Enable 'Priority and Deadline based Skip list multiple queue CPU scheduler'
+sys-kernel/cachyos-sources:cpusched_tt - Enable 'Task Type Scheduler by Hamad Marri'
+sys-kernel/cachyos-sources:damon - Enable DAMON
+sys-kernel/cachyos-sources:disable_debug - Disable debug to lower the size of the kernel
+sys-kernel/cachyos-sources:hugepage_always - Always enable Transparent Hugepages
+sys-kernel/cachyos-sources:hugepage_madvise - Prevent applications from allocating more memory resources than necessary
+sys-kernel/cachyos-sources:hzticks_100 - Set tick rate to 100Hz
+sys-kernel/cachyos-sources:hzticks_1000 - Set tick rate to 1000Hz
+sys-kernel/cachyos-sources:hzticks_250 - Set tick rate to 250Hz
+sys-kernel/cachyos-sources:hzticks_300 - Set tick rate to 300Hz
+sys-kernel/cachyos-sources:hzticks_500 - Set tick rate to 500Hz
+sys-kernel/cachyos-sources:hzticks_600 - Set tick rate to 600Hz
+sys-kernel/cachyos-sources:hzticks_750 - Set tick rate to 750Hz
+sys-kernel/cachyos-sources:kyber_disable - Disable Kyber I/O scheduler
+sys-kernel/cachyos-sources:latency_nice - Enable latency-nice patchset
+sys-kernel/cachyos-sources:lrng - Enable Linux Random Number Generator
+sys-kernel/cachyos-sources:lru_none - Disable multigenerational LRU
+sys-kernel/cachyos-sources:lru_standard - Enable multigenerational LRU
+sys-kernel/cachyos-sources:lru_stats - Enable multigenerational LRU with stats
+sys-kernel/cachyos-sources:mq_deadline_disable - Disable MQ-Deadline I/O scheduler
+sys-kernel/cachyos-sources:per_gov - Set performance governor as default
+sys-kernel/cachyos-sources:preempt_full - Set preemption type to Full
+sys-kernel/cachyos-sources:preempt_server - Set preemption type to Server
+sys-kernel/cachyos-sources:preempt_voluntary - Set preemption type to Voluntary
+sys-kernel/cachyos-sources:tcp_bbr2 - Enable TCP_CONG_BBR2
+sys-kernel/cachyos-sources:tickrate_full - Set tick type to Full. Full tickless can give higher performances in various cases but, depending on hardware, lower consistency.
+sys-kernel/cachyos-sources:tickrate_idle - Set tick type to Idle
+sys-kernel/cachyos-sources:tickrate_perodic - Set tick type to Periodic
+sys-kernel/cachyos-sources:tune_bore - Apply some suggested sysctl values from the bore developer
+sys-kernel/cachyos-sources:zstd_compression - Enable zram/zswap ZSTD compression
+sys-kernel/cachyos-sources:zstdlevel_normal - Set standard ZSTD compression ratio
+sys-kernel/cachyos-sources:zstdlevel_ultra - Set highest ZSTD compression ratio. Ultra settings can sometimes be counterproductive in both size and speed.
+sys-power/nbfc-linux:bash-completion - Enable bash-completion support
+sys-power/nbfc-linux:fish-completion - Enable fish-completion support
+sys-power/nbfc-linux:zsh-completion - Enable zsh-completion support

@@ -1,0 +1,21 @@
+app-admin/ananicy-cpp 1.0.2: Ananicy rewritten in C++ for much lower CPU and memory usage
+app-containers/aardvark-dns 1.0.2 1.0.2-r1 1.5.0 1.6.0: A container-focused DNS server
+app-misc/pfetch-rs 2.4.0 2.5.0: A rewrite of the pfetch system information tool
+gui-apps/cliphist 0.4.0: Wayland clipboard manager
+gui-apps/hyprland-contrib 9999: Community scripts and utilities for Hypr projects
+gui-apps/hyprpaper 0.2.0 9999: Hyprpaper is a blazing fast wayland wallpaper utility with IPC controls
+gui-apps/nwg-look 0.2.1: GTK3 settings editor adapted to work in the sway / wlroots environment
+gui-wm/hyprland 9999: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks
+gui-wm/swayfx 9999: i3-compatible Wayland window manager
+media-sound/mpd-mpris 0.3.1 0.4.0: An implementation of the MPRIS protocol for MPD.
+net-analyzer/gping-bin 1.8.0: Ping, but with a graph.
+net-dns/doggo 0.5.5: Command-line DNS Client for Humans
+net-dns/doggo-bin 0.5.5: Command-line DNS Client for Humans
+net-dns/nextdns 1.39.4: NextDNS CLI client (DoH Proxy)
+net-fs/samba 4.16.4 4.16.4-r1: Samba Suite Version 4
+net-misc/wgcf 2.2.15 2.2.16: Cross-platform, unofficial CLI for Cloudflare Warp
+sys-fs/sanoid 2.1.0 9999: Policy-driven snapshot management and replication tools for ZFS
+sys-fs/zrepl 0.6.0: One-stop ZFS backup & replication solution
+sys-kernel/cachyos-sources 6.2.11: Linux Kernel by CachyOS with different schedulers, patches and performance improvements
+sys-kernel/zenpower3 9999: Linux kernel driver for reading temperature, voltage(SVI2), current(SVI2) and power(SVI2) for AMD Zen family CPUs, now with Zen 3 support!
+sys-power/nbfc-linux 0.1.7 9999: NoteBook FanControl ported to Linux

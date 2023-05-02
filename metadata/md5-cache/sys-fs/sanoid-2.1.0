@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst
+DEPEND=dev-perl/Config-IniFiles dev-perl/Capture-Tiny sys-apps/pv app-arch/lzop app-arch/zstd app-arch/gzip app-arch/lz4 app-arch/gzip sys-block/mbuffer
+DESCRIPTION=Policy-driven snapshot management and replication tools for ZFS
+EAPI=8
+HOMEPAGE=https://github.com/jimsalterjrs/sanoid
+KEYWORDS=-* ~amd64
+LICENSE=GPL-3
+RDEPEND=dev-perl/Config-IniFiles dev-perl/Capture-Tiny sys-apps/pv app-arch/lzop app-arch/zstd app-arch/gzip app-arch/lz4 app-arch/gzip sys-block/mbuffer
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jimsalterjrs/sanoid/archive/v2.1.0.tar.gz -> sanoid-2.1.0.tar.gz
+_md5_=f22514a63a110986c5e488b6011aad1c

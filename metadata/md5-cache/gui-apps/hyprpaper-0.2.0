@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig dev-libs/wayland-protocols dev-util/cmake
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/wayland media-libs/libglvnd media-libs/libjpeg-turbo x11-libs/pango x11-libs/cairo
+DESCRIPTION=Hyprpaper is a blazing fast wayland wallpaper utility with IPC controls
+EAPI=8
+HOMEPAGE=https://github.com/hyprwm/hyprpaper
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-libs/wayland media-libs/libglvnd media-libs/libjpeg-turbo x11-libs/pango x11-libs/cairo
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/hyprwm/hyprpaper/archive/v0.2.0.tar.gz -> hyprpaper-0.2.0.tar.gz
+_md5_=61dbb17386a42463fdd3050283de5ab4
