@@ -42,6 +42,7 @@ net-fs/samba:spotlight - Enable support for spotlight backend
 net-fs/samba:system-heimdal - Use app-crypt/heimdal instead of bundled heimdal.
 net-fs/samba:system-mitkrb5 - Use app-crypt/mit-krb5 instead of app-crypt/heimdal.
 net-fs/samba:winbind - Enables support for the winbind auth daemon
+net-p2p/qbittorrent-enhanced:webui - Enable the Web UI
 sys-fs/zrepl:bash-completion - Enable bash-completion support
 sys-fs/zrepl:zsh-completion - Enable zsh-completion support
 sys-kernel/cachyos-sources:NUMAdisable - Disable NUMA. NUMA is optimized for multi-socket motherboards
