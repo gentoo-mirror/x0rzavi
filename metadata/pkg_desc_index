@@ -1,7 +1,7 @@
 app-admin/ananicy-cpp 1.0.2: Ananicy rewritten in C++ for much lower CPU and memory usage
 app-containers/aardvark-dns 1.0.2 1.0.2-r1 1.5.0 1.6.0: A container-focused DNS server
 app-emulation/quickemu 4.7: Quickly create and run optimised Windows, macOS and Linux desktop virtual machines
-app-misc/pfetch-rs 2.4.0 2.5.0: A rewrite of the pfetch system information tool
+app-misc/pfetch-rs 2.4.0 2.5.0 2.7.0: A rewrite of the pfetch system information tool
 gui-apps/cliphist 0.4.0: Wayland clipboard manager
 gui-apps/hyprland-contrib 9999: Community scripts and utilities for Hypr projects
 gui-apps/hyprpaper 0.2.0 9999: Hyprpaper is a blazing fast wayland wallpaper utility with IPC controls
