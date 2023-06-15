@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst postrm preinst prepare setup test unpack
+DESCRIPTION=Linux Kernel by CachyOS with different schedulers, patches and performance improvements
+EAPI=8
+HOMEPAGE=https://github.com/CachyOS/linux-cachyos
+INHERIT=kernel-2
+IUSE=+config cpusched_bmq cpusched_pds cpusched_bore cpusched_cfs cpusched_tt +cpusched_cachyos tune_bore NUMAdisable +cc_harder +per_gov +tcp_bbr2 hzticks_100 hzticks_250 hzticks_300 +hzticks_500 hzticks_600 hzticks_750 hzticks_1000 +tickrate_full tickrate_idle tickrate_perodic +preempt_full preempt_voluntary preempt_server +mq_deadline_disable +kyber_disable +lru_standard lru_stats lru_none +vma_standard vma_stats vma_none +hugepage_always hugepage_madvise damon lrng +auto_optimization disable_debug zstdlevel_ultra +zstdlevel_normal bcachefs symlink build
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=!build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
+REQUIRED_USE=^^ ( cpusched_bmq cpusched_pds cpusched_bore cpusched_cfs cpusched_tt cpusched_cachyos ) ^^ ( hzticks_100 hzticks_250 hzticks_300 hzticks_500 hzticks_600 hzticks_750 hzticks_1000 ) ^^ ( tickrate_full tickrate_idle tickrate_perodic ) ^^ ( preempt_full preempt_voluntary preempt_server ) ^^ ( lru_standard lru_stats lru_none ) ^^ ( vma_standard vma_stats vma_none ) ^^ ( hugepage_always hugepage_madvise ) ^^ ( zstdlevel_ultra zstdlevel_normal )
+RESTRICT=binchecks strip
+SLOT=0
+SRC_URI=https://www.kernel.org/pub/linux/kernel/v6.x/linux-6.3.tar.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-6.3-11.base.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-6.3-11.base.tar.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-6.3-11.extras.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-6.3-11.extras.tar.xz
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	kernel-2	5ec69098eb726d07eec2cf05ce4fbdfe
+_md5_=767035340823ed437eb02e02b9996124

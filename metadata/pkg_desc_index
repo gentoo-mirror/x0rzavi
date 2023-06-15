@@ -18,7 +18,7 @@ net-misc/wgcf 2.2.15 2.2.16 2.2.18: Cross-platform, unofficial CLI for Cloudflar
 net-p2p/qbittorrent-enhanced 4.5.2.10 4.5.3.10: qBittorrent Enhanced, based on qBittorrent bitTorrent client in C++ and Qt
 sys-fs/sanoid 2.1.0 9999: Policy-driven snapshot management and replication tools for ZFS
 sys-fs/zrepl 0.6.0: One-stop ZFS backup & replication solution
-sys-kernel/cachyos-sources 6.2.11: Linux Kernel by CachyOS with different schedulers, patches and performance improvements
+sys-kernel/cachyos-sources 6.2.11 6.3.8: Linux Kernel by CachyOS with different schedulers, patches and performance improvements
 sys-kernel/zenpower3 9999: Linux kernel driver for reading temperature, voltage(SVI2), current(SVI2) and power(SVI2) for AMD Zen family CPUs, now with Zen 3 support!
 sys-power/nbfc-linux 0.1.7 9999: NoteBook FanControl ported to Linux
 www-client/carbonyl-bin 0.0.3: Chromium running inside your terminal
