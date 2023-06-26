@@ -16,6 +16,7 @@ net-dns/nextdns 1.39.4: NextDNS CLI client (DoH Proxy)
 net-fs/samba 4.16.4 4.16.4-r1: Samba Suite Version 4
 net-misc/wgcf 2.2.15 2.2.16 2.2.18: Cross-platform, unofficial CLI for Cloudflare Warp
 net-p2p/qbittorrent-enhanced 4.5.2.10 4.5.3.10 4.5.4.10: qBittorrent Enhanced, based on qBittorrent bitTorrent client in C++ and Qt
+sys-boot/zfsbootmenu 1.12.0 2.2.0: ZFS Bootloader for root-on-ZFS systems with support for snapshots and native full disk encryption
 sys-fs/sanoid 2.1.0 9999: Policy-driven snapshot management and replication tools for ZFS
 sys-fs/zrepl 0.6.0: One-stop ZFS backup & replication solution
 sys-kernel/cachyos-sources 6.2.11 6.3.8: Linux Kernel by CachyOS with different schedulers, patches and performance improvements
