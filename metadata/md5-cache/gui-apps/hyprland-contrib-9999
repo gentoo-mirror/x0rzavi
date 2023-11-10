@@ -11,5 +11,5 @@ LICENSE=BSD
 PROPERTIES=live
 RDEPEND=grimblast? ( gui-apps/grim gui-apps/slurp gui-apps/wl-clipboard x11-libs/libnotify ) hyprprop? ( gui-apps/slurp app-misc/jq )
 SLOT=0
-_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
 _md5_=7df948f52b9f05b3f561c732fdc0e48c
