@@ -6,10 +6,10 @@ INHERIT=kernel-2
 IUSE=+config cpusched_bmq cpusched_pds cpusched_bore cpusched_cfs cpusched_tt +cpusched_eevdf tune_bore NUMAdisable +cc_harder +per_gov +tcp_bbr2 hzticks_100 hzticks_250 hzticks_300 +hzticks_500 hzticks_600 hzticks_750 hzticks_1000 +tickrate_full tickrate_idle tickrate_perodic +preempt_full preempt_voluntary preempt_server +mq_deadline_disable +kyber_disable +lru_standard lru_stats lru_none +hugepage_always hugepage_madvise damon lrng +auto_optimization disable_debug zstd_compression zstdlevel_ultra +zstdlevel_normal bcachefs latency_nice symlink build
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=!build? ( app-alternatives/cpio dev-lang/perl app-alternatives/bc sys-devel/bison app-alternatives/lex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
+RDEPEND=!build? ( app-alternatives/cpio dev-lang/perl app-alternatives/bc app-alternatives/yacc app-alternatives/lex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
 REQUIRED_USE=^^ ( cpusched_bmq cpusched_pds cpusched_bore cpusched_cfs cpusched_tt cpusched_eevdf ) ^^ ( hzticks_100 hzticks_250 hzticks_300 hzticks_500 hzticks_600 hzticks_750 hzticks_1000 ) ^^ ( tickrate_full tickrate_idle tickrate_perodic ) ^^ ( preempt_full preempt_voluntary preempt_server ) ^^ ( lru_standard lru_stats lru_none ) ^^ ( hugepage_always hugepage_madvise ) ^^ ( zstdlevel_ultra zstdlevel_normal )
 RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=https://www.kernel.org/pub/linux/kernel/v6.x/linux-6.2.tar.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-6.2-13.base.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-6.2-13.base.tar.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-6.2-13.extras.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-6.2-13.extras.tar.xz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	crossdev	f04338ff78f213a4a55c5c37b3c6563e	estack	c61c368a76fdf3a82fdf8dbaebea3804	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	kernel-2	9638cb6c727a3d1da773e8a7e8b98f19
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	crossdev	f04338ff78f213a4a55c5c37b3c6563e	estack	c61c368a76fdf3a82fdf8dbaebea3804	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	kernel-2	e0121c8eaf287badf479a22ce41c88fd
 _md5_=17e6d45216105bafe130d64b2a0083a8
