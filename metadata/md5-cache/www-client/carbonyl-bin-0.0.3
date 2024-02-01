@@ -1,10 +1,11 @@
 DEFINED_PHASES=install unpack
+DEPEND=dev-libs/expat dev-libs/nss media-libs/alsa-lib
 DESCRIPTION=Chromium running inside your terminal
 EAPI=8
 HOMEPAGE=https://github.com/fathyb/carbonyl
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm64
 LICENSE=BSD
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/fathyb/carbonyl/releases/download/v0.0.3/carbonyl.linux-amd64.zip -> carbonyl-0.0.3.zip
-_md5_=a751226b1cf22217e634e5750e1ec180
+SRC_URI=amd64? ( https://github.com/fathyb/carbonyl/releases/download/v0.0.3/carbonyl.linux-amd64.zip -> carbonyl-amd64-0.0.3.zip ) arm64? ( https://github.com/fathyb/carbonyl/releases/download/v0.0.3/carbonyl.linux-arm64.zip -> carbonyl-arm64-0.0.3.zip )
+_md5_=cec0c610e60a62b73cfbbd988eea457e
