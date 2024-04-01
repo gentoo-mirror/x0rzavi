@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=dev-perl/Config-IniFiles dev-perl/Capture-Tiny sys-apps/pv app-arch/lzop app-arch/zstd app-arch/gzip app-arch/lz4 app-arch/gzip sys-block/mbuffer
 SLOT=0
-_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
 _md5_=f22514a63a110986c5e488b6011aad1c
